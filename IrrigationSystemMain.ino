@@ -1,4 +1,4 @@
-// Initializing variables
+// initialize variables
 int sensor1;
 int sensor2;
 int waterPump1 = 1; // assign to digital pin 1
