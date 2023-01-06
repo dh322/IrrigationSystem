@@ -1,3 +1,5 @@
+// This the main code for the irrigation system
+
 // initialize variables
 int sensor1;
 int sensor2;
