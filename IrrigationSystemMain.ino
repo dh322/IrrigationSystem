@@ -12,6 +12,7 @@ void setup() {
 
 void loop() {
   sensor1 = analogRead(A0); // assign to receive signals from analog pin 0
+  serial.println(sensor1); // print value of sensor in serial monitor
   if (sensor1 > 268) { // if value is greater than 268
     digitalWrite(waterPump1, HIGH); // associated water pump turns on for 10 seconds
     delay(10000);
@@ -19,6 +20,7 @@ void loop() {
   }
   // subsequent sensors and pumps follow the same process
   sensor2 = analogRead(A1); // assign to receive signals from analog pin 1
+  serial.println(sensor2); 
   if (sensor2 > 268) {
     digitalWrite(waterPump2, High);
     delay(10000);
