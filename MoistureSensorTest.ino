@@ -1,3 +1,4 @@
+// This was code written to find the values of the moisture sensors when exposed to air and water
 // initialize sensor
 int sensor1;
 
